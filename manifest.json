@@ -3,12 +3,12 @@
   "name": "Lorem Ipsum",
   "icons": [
     {
-      "src": "/path/to/your/icon.png",
+      "src": "/chrome-app-template/walter.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "/path/to/your/icon.png",
+      "src": "/chrome-app-template/walter.png",
       "type": "image/png",
       "sizes": "512x512"
     }
