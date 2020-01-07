@@ -18,4 +18,8 @@
   "display": "standalone",
   "scope": "/chrome-app-template/",
   "theme_color": "#3367D6"
+  "prefer_related_applications": true, "related_applications": [{
+    "platform": "play",
+    "id": "com.google.samples.apps.iosched"
+  }]
 }
