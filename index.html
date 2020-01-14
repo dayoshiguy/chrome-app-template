@@ -3,7 +3,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <html>
 <link rel='manifest' href='/chrome-app-template/manifest.json'>
-<!--<link rel="manifest" href="/chrome-app-template/manifest.json">-->
 <script>
   if ("serviceWorker" in navigator) {
   if (navigator.serviceWorker.controller) {
@@ -11,7 +10,7 @@
   } else {
     // Register the service worker
     navigator.serviceWorker
-      .register("/chrome-app-template/sw.js", {
+      .register("sw.js", {
         scope: "./"
       })
       .then(function (reg) {
