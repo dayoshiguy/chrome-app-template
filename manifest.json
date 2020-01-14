@@ -2,5 +2,8 @@
 	"name" : "test app",
 	"short_name" : "test app",
 	"description" : "a test app",
-	"start_url" : "https://dayoshiguy.github.io/chrome-app-template/index.html"
+	"start_url" : "https://dayoshiguy.github.io/chrome-app-template/index.html",
+	"scope" : "https://dayoshiguy.github.io/chrome-app-template/",
+	"display" : "minimal-ui",
+	"lang" : "English"
 }
