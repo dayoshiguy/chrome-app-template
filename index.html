@@ -11,7 +11,7 @@
   } else {
     // Register the service worker
     navigator.serviceWorker
-      .register("/sw.js", {
+      .register("/chrome-app-template/sw.js", {
         scope: "./"
       })
       .then(function (reg) {
