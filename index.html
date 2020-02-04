@@ -15,7 +15,7 @@ if ("serviceWorker" in navigator) {
   } else {
     // Register the service worker
     navigator.serviceWorker
-      .register("sw.js", {
+      .register("https://dayoshiguy.github.io/chrome-app-template/sw.js", {
         scope: "./"
       })
       .then(function (reg) {
